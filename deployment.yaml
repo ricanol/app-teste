@@ -51,7 +51,7 @@ metadata:
     allow.http: "false"
 spec:
   rules:
-  - host: go.hml.rancher.trybe.dev
+  - host: go.prod.rancher.trybe.dev
     http:
       paths:
         - path: /
