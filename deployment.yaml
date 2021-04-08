@@ -48,7 +48,7 @@ metadata:
   #namespace: frontend
   name: go-ingress
   annotations:
-    allow.http: "false"
+    allow.http: "true"
 spec:
   rules:
   - host: pr${CICD_EXECUTION_SEQUENCE}.prod.rancher.trybe.dev
