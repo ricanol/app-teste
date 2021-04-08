@@ -15,7 +15,6 @@ stages:
       dockerfilePath: ./Dockerfile
       buildContext: .
       tag: go-server:${CICD_EXECUTION_SEQUENCE}
-      tag: pull-request:${CI_EXTERNAL_PULL_REQUEST_IID}
 - name: Deploy
   steps:
   - applyYamlConfig:
